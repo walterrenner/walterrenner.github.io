@@ -1,145 +1,60 @@
 <!doctype html>
-
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" /> <!-- values: default, black, black-translucent -->
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta name="viewport" content="maximum-scale=1.0">
-        <meta name="viewport" content="user-scalable=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Walterrenner.github.com by walterrenner</title>
 
-        <title>iOS Web App</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Walterrenner.github.com</h1>
+        <p>Github User Page</p>
 
-        <link rel="shortcut icon" href="/images/favicon.ico" />
 
-        <!-- Touch Icon, one size for all (google like) -->
-        <!-- iPhone    iPhone (Retina)    iPad    iPad (Retina) -->
-        <!-- 57×57     114×114            72×72   144×144 -->
-        <link sizes="144x144" rel="apple-touch-icon" href="/images/apple-touch-icon-144x144.png" />
-        <link sizes="144x144" rel="apple-touch-icon-precomposed" href="imgages/apple-touch-icon-144x144-precomposed.png" />
+        <p class="view"><a href="https://github.com/walterrenner">View My GitHub Profile</a></p>
 
-        <!-- Startup Images -->
-        <!-- iPhone -->
-        <link href="/images/apple-touch-startup-image-320x460.png"
-            media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)"
-            rel="apple-touch-startup-image">
+      </header>
+      <section>
+        <h3>Welcome to GitHub Pages.</h3>
 
-        <!-- iPhone (Retina) -->
-        <link href="/images/apple-touch-startup-image-640x920.png"
-            media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
-            rel="apple-touch-startup-image">
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-        <!-- iPhone 5 -->
-        <link href="http://taylor.fausak.me/static/images/apple-touch-startup-image-640x1096.png"
-            media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
-            rel="apple-touch-startup-image">
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-        <!-- iPad -->
-        <link href="/images/apple-touch-startup-image-768x1004.png"
-            media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait)and (-webkit-device-pixel-ratio: 1)"
-            rel="apple-touch-startup-image">
-        <link href="/images/apple-touch-startup-image-748x1024.png"
-            media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)"
-            rel="apple-touch-startup-image">
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-        <!-- iPad (Retina) -->
-        <link href="/images/apple-touch-startup-image-1536x2008.png"
-            media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)"
-            rel="apple-touch-startup-image">
-        <link href="/images/apple-touch-startup-image-1496x2048.png"
-            media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"
-            rel="apple-touch-startup-image">
+<h3>Designer Templates</h3>
 
-        <!-- CSS for Install Hints -->
-        <style type="text/css">
-            .triangle-border {
-                padding:15px;
-                margin:1em 0 3em;
-                border:5px solid blue;
-                color:#333;
-                background:#fff;
-                -webkit-border-radius:10px;
-                   -moz-border-radius:10px;
-                        border-radius:10px;
-            }
-            .triangle-border:before {
-                content:"";
-                position:absolute;
-                bottom:-20px;
-                left:125px;
-                border-width:20px 20px 0;
-                border-style: solid;
-                border-color:blue transparent;
-                display:block; 
-                width:0;
-            }
-            .triangle-border:after {
-                content:"";
-                position:absolute;
-                bottom:-13px;
-                left:132px;
-                border-width:13px 13px 0;
-                border-style:solid;
-                border-color:#fff transparent;
-                display:block; 
-                width:0;
-            }
-            .triangle-border.top:before {
-                top:-20px;
-                bottom:auto;
-                left:auto;
-                left:40px;
-                border-width:0 20px 20px;
-            }
-            .triangle-border.top:after {
-                top:-13px;
-                bottom:auto;
-                left:auto;
-                left:47px;
-                border-width:0 13px 13px;
-            }
-            .iPad {
-                position:fixed;
-                top: 0;
-                left: 140px;
-            }
-            .iPhone {
-                position:fixed;
-                bottom: 5px;
-                margin: 10px auto;
-                max-width: 265px; 
-            }
-        </style>
-    </head>
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-    <body>
-        <div style="display:none" class="triangle-border top iPad" id="install_hint_ipad">Install the Web App on your iPad, click here and "Add to Home Screen"</div>
-        <div style="display:none;" class="triangle-border iPhone" id="install_hint_iphone">Install the Web App on your iPhone, click here and "Add to Home Screen"</div>
-        <div class="container">
-            <h2>iOS Web App</h2>
-        </div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<h3>Rather Drive Stick?</h3>
 
-        <script type="text/javascript">
-            window.onload = init;
-            var iPad = ( navigator.userAgent.match(/iPad/i) ? true : false );
-            var iPhone = ( navigator.userAgent.match(/(iPhone|iPod)/i) ? true : false );
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-            if (("standalone" in window.navigator) && !window.navigator.standalone) {
-                if (iPad) {
-                    document.getElementById('install_hint_ipad').style.display="block";
-                } else{
-                    document.getElementById('install_hint_iphone').style.display="block";
-                };
-            }
+<h3>Authors and Contributors</h3>
 
-            function init() {
-                // little hack to hide url-bar on iPhones
-                window.scrollTo(0, 1);
-            }
-        </script>
-    </body>
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
