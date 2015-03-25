@@ -4,7 +4,7 @@ email:       mail@walterrenner.de
 author:      Walter Renner
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "https://walterrenner.de"
+url:         "http://walterrenner.de"
 
 # Google analytics
 google_analytics:
