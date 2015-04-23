@@ -136,7 +136,6 @@ pre, code {
 pre {
   padding: .5rem 1rem;
   font-size: 0.8rem;
-  overflow-x: auto;
 }
 
 code {
@@ -145,6 +144,7 @@ code {
 
 pre > code {
   padding: 0;
+  overflow-y: auto;
 }
 
 .container {
