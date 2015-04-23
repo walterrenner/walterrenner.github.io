@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Hi there.
+Hi. I'm Walter. I make things for the Internet.
