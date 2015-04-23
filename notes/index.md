@@ -4,4 +4,5 @@ layout: default
 
 # Notes
 
-23.04.2015 [Hide email addresses from page source with django](1)
+23.04.2015 [Hide email addresses from page source with Django](2)
+23.04.2015 [Hide email addresses from page source with Django](1)
