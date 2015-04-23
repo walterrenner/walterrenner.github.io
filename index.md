@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Hi. I'm Walter. I make things for the Internet.
+> First make things work, then make them work better.
