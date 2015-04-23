@@ -5,7 +5,7 @@ layout: default
 # Notes
 
 **23.04.2015**<br />
-[Get Django admin url for model instance](4-get-django-admin-url-for-model-instance.md)
+[Get Django admin url for model instance](4-get-django-admin-url-for-model-instance)
 
 **23.04.2015**<br />
 [It's worth it to wake up early](3-its-worth-it-to-wake-up-early)
