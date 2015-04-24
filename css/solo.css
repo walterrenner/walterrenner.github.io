@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: #0074d9; /* From http://clrs.cc */
+  color: #75b672;
   text-decoration: none;
 }
 
@@ -151,4 +151,11 @@ pre > code {
   max-width: 30rem;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+::selection {
+  background: #2D7C29; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #2D7C29; /* Gecko Browsers */
 }
