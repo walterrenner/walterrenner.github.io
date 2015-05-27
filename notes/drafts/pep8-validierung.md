@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      PEP-8 in einem Ordner ausführen und Ergebnisse in eine Datei schreiben
-categories: quicktip
+layout: default
 ---
+
+## PEP-8 in einem Ordner ausführen und Ergebnisse in eine Datei schreiben
 
 ~~~ bash
     $ pip install pep8

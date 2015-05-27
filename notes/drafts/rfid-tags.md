@@ -1,7 +1,7 @@
 ---
-layout:     post
-title:      RFID-Tags
-categories:
+layout: default
 ---
+
+## RFID-Tags
 
 anwendungsbeispiele und mein aktuelles Setup zeigen

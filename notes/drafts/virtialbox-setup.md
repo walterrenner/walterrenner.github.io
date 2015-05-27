@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      VirtualBox Setup
-categories:
+layout: default
 ---
+
+## VirtualBox Setup
 
 *   Zwischenablage integration
 *   Geteilte Ordner

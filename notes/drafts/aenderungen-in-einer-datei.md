@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      Nach Änderungen in einer Datei suchen
-categories: quicktip
+layout: default
 ---
+
+## Nach Änderungen in einer Datei suchen
 
 nach Änderungen an einer Datei suchen (git) in das Verzeichnis wechseln dann:
 

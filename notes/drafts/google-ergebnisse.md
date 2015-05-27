@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      Alle Google Ergebnisse in neuem Tab öffnen
-categories:
+layout: default
 ---
+
+## Alle Google Ergebnisse in neuem Tab öffnen
 
 Wenn ich auf Google etwas suche halte ich beinahe ständig die <kbd>&#8984;</kbd> Taste gedrückt um die Ergebnisse in einem neuen Tab zu öffnen. So komme schnell wieder schnell zu allen Suchergebnissen.
 

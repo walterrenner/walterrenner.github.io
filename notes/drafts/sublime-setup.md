@@ -1,9 +1,8 @@
 ---
-layout:     post
-title:      Mein Sublime Text Setup
-categories:
+layout: default
 ---
 
+## Mein Sublime Text Setup
 
 Mein Sublime Text Setup
 

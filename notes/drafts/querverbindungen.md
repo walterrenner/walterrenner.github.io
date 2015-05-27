@@ -1,9 +1,8 @@
 ---
-layout:     post
-title:      Querverbindungen zu meinen Werkzeugen
-categories:
+layout: default
 ---
 
+## Querverbindungen zu meinen Werkzeugen
 
 Ich benutze im Alltag und auf der arbeit oft drei Werkzeuge: SublimeText, das Terminal und den Finder.
 
