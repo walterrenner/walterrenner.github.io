@@ -4,6 +4,9 @@ layout: default
 
 # Notes
 
+**01.05.2015**<br />
+[Widerrufene Zertifikate in Chrome sperren](5-widerrufene-zertifikate-in-chrome-sperren)
+
 **23.04.2015**<br />
 [Get Django admin url for model instance](4-get-django-admin-url-for-model-instance)
 
